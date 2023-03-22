@@ -12,28 +12,28 @@
         android:theme="@style/Theme.Hotal"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity6"
+            android:name=".Activity5"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name=".Activity4"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name=".Activity3"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".Activity6"
             android:exported="false" />
         <activity
-            android:name=".S2Activity"
+            android:name=".Activity2"
             android:exported="false" />
         <activity
-            android:name=".verifyActivity"
+            android:name=".Activity7"
             android:exported="false" />
         <activity
-            android:name=".passwordActivity"
+            android:name=".Activity8"
             android:exported="false" />
         <activity
-            android:name=".Signin"
+            android:name=".Activity9"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

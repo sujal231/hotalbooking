@@ -4,25 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity6">
+    tools:context=".Activity3">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="3">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="2"
-            android:src="@drawable/img_11" />
+            android:src="@drawable/img_3" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="vertical">
 
         <LinearLayout
@@ -35,69 +34,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Let’s discover the"
+                android:text="Touch Your Dreams"
                 android:textColor="#000000"
-                android:textSize="@dimen/_20sdp"
+                android:textSize="@dimen/_22sdp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:gravity="center"
-                android:text="world with us"
+                android:text="Everything you can dream about,"
                 android:textColor="#000000"
-                android:textSize="@dimen/_20sdp"
-                android:textStyle="bold" />
-
+                android:textSize="@dimen/_12sdp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="We live for vactioner and traveler"
+                android:text="available here."
                 android:textColor="#000000"
-                android:textSize="@dimen/_15sdp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="who love a good deal, fun, and"
-                android:textColor="#000000"
-                android:textSize="@dimen/_15sdp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="adventure."
-                android:textColor="#000000"
-                android:textSize="@dimen/_15sdp" />
-
+                android:textSize="@dimen/_12sdp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="vertical">
-        <ImageView
-            android:layout_width="@dimen/_80sdp"
-            android:layout_height="@dimen/_70sdp"
-            android:layout_gravity="center"
-            android:src="@drawable/img_10" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:letterSpacing="0.2"
-            android:text="Skip"
-            android:textSize="@dimen/_15sdp" />
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:letterSpacing="0.2"
+                android:text="Skip"
+                android:textSize="@dimen/_15sdp" />
+        </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
-
-    </LinearLayout>

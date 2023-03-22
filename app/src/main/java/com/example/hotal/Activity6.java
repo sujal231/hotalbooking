@@ -8,21 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Signin extends AppCompatActivity {
-
-    TextView forgotpassword;
+public class Activity6 extends AppCompatActivity {
+    TextView txtsign;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_6);
+        txtsign = findViewById(R.id.txtsign);
 
-        forgotpassword = findViewById(R.id.forgotpassword);
-
-        forgotpassword.setOnClickListener(new View.OnClickListener() {
+        txtsign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Signin.this,passwordActivity.class);
+                Intent intent = new Intent(Activity6.this, Activity9.class);
                 startActivity(intent);
             }
         });

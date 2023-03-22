@@ -6,21 +6,22 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.ImageView;
 
-public class MainActivity3 extends AppCompatActivity {
-    TextView txtsign;
+public class Activity3 extends AppCompatActivity {
+
+    ImageView img3;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
-        txtsign = findViewById(R.id.txtsign);
+        setContentView(R.layout.activity_3);
+        img3 = findViewById(R.id.img3);
 
-        txtsign.setOnClickListener(new View.OnClickListener() {
+        img3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this,Signin.class);
+                Intent intent = new Intent(Activity3.this,Activity4.class);
                 startActivity(intent);
             }
         });

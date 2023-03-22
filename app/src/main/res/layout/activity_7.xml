@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".verifyActivity"
+    tools:context=".Activity7"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -34,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        tools:ignore="MissingClass">
 
         <TextView
             android:layout_width="match_parent"
@@ -79,6 +80,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Resend code in 55 s"/>
+
     </LinearLayout>
 
     <LinearLayout
