@@ -1,217 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Activity9">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/_5sdp"
-        android:layout_marginTop="@dimen/_5sdp"
-        android:src="@drawable/arrow2" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:gravity="center"
-        android:text="Login to your "
-        android:textColor="#474646"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_15sdp"
-        android:gravity="center"
-        android:text="Account"
-        android:textColor="#474646"
-        android:textSize="@dimen/_20sdp"
-        android:textStyle="bold" />
+    tools:context=".Activity7"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/_3sdp"
-        android:layout_marginRight="@dimen/_3sdp"
-        android:background="@drawable/btn"
-        android:orientation="horizontal"
-        android:padding="@dimen/_4sdp">
+        android:gravity="top">
 
         <ImageView
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:layout_gravity="center"
-            android:src="@drawable/sms" />
-
-        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:hint="Email" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/_3sdp"
-        android:layout_marginRight="@dimen/_3sdp"
-        android:background="@drawable/btn"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:padding="@dimen/_4sdp">
-
-        <ImageView
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:layout_gravity="center"
-            android:src="@drawable/lock" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:hint="Password" />
-
-        <ImageView
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_150sdp"
-            android:src="@drawable/eyeslash" />
-
-    </LinearLayout>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Remember me" />
-
-    <TextView
-        android:id="@+id/txtsign"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="@dimen/_3sdp"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:layout_marginRight="@dimen/_3sdp"
-        android:background="@drawable/btn2"
-        android:gravity="center"
-        android:text="Sign"
-        android:textColor="#FDFDFD"
-        android:textSize="18dp" />
-
-    <TextView
-        android:id="@+id/forgotpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Forgot the password?"
-        android:layout_marginTop="@dimen/_15sdp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:layout_marginBottom="@dimen/_20sdp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <View
-            android:layout_width="135dp"
-            android:layout_height="2dp"
-            android:background="@color/black" />
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:src="@drawable/arrow2" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="center"
-            android:text="or continue with" />
-
-        <View
-            android:layout_width="135dp"
-            android:layout_height="2dp"
-            android:background="@color/black" />
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Forgot Password"
+            android:textColor="#474646"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:ignore="MissingClass">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Code has been send to +91 111*******99"/>
+
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="@dimen/_50sdp"
-            android:layout_weight="1"
-            android:background="@drawable/btn"
-            android:gravity="center">
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+            <EditText
+                android:id="@+id/ed7_1"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:hint="1"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@drawable/btn"/>
+            <EditText
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:hint="1"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="center"
+                android:background="@drawable/btn"/>
+            <EditText
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:hint="1"
+                android:gravity="center"
+                android:background="@drawable/btn"/>
+            <EditText
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:hint="1"
+                android:gravity="center"
+                android:background="@drawable/btn"/>
 
-            <ImageView
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
-                android:paddingTop="@dimen/_20sdp"
-                android:paddingBottom="@dimen/_20sdp"
-                android:scaleType="center"
-                android:src="@drawable/group" />
         </LinearLayout>
-
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="@dimen/_50sdp"
-            android:layout_marginRight="@dimen/_50sdp"
-            android:layout_weight="1"
-            android:background="@drawable/btn"
-            android:gravity="center">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
 
-            <ImageView
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
-                android:paddingTop="@dimen/_20sdp"
-                android:paddingBottom="@dimen/_20sdp"
-                android:scaleType="center"
-                android:src="@drawable/group2" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="@dimen/_50sdp"
-            android:layout_weight="1"
-            android:background="@drawable/btn"
-            android:gravity="center">
 
-            <ImageView
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
-                android:paddingTop="@dimen/_20sdp"
-                android:paddingBottom="@dimen/_20sdp"
-                android:scaleType="center"
-                android:src="@drawable/group3" />
-        </LinearLayout>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Resend code in 55 s"/>
 
     </LinearLayout>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/s1"
-        android:layout_marginTop="@dimen/_40sdp"
-        android:gravity="center"/>
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/txtcontinue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_70sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:background="@drawable/btn2"
+            android:gravity="center"
+            android:text="Verify"
+            android:textColor="#FDFDFD"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
 
 
 
-
-
-</LinearLayout>
+</FrameLayout>

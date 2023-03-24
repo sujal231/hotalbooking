@@ -3,28 +3,23 @@ package com.example.hotal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
+import android.widget.EditText;
 
-public class Activity9 extends AppCompatActivity {
 
-    TextView forgotpassword;
+public class Activity7 extends AppCompatActivity {
+
+    EditText ed7_1,ed7_2,ed7_3,ed7_4;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_9);
+        setContentView(R.layout.activity_7);
+        ed7_1 = findViewById(R.id.ed7_1);
 
-        forgotpassword = findViewById(R.id.forgotpassword);
 
-        forgotpassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Activity9.this, Activity8.class);
-                startActivity(intent);
-            }
-        });
+
+
+
     }
 }
