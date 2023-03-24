@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Activity9">
+    tools:context=".Activity7">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
         android:text="Remember me" />
 
     <TextView
-        android:id="@+id/txtsign"
+        android:id="@+id/txt7"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="@dimen/_3sdp"
@@ -104,7 +104,7 @@
         android:layout_marginRight="@dimen/_3sdp"
         android:background="@drawable/btn2"
         android:gravity="center"
-        android:text="Sign"
+        android:text="Sign in"
         android:textColor="#FDFDFD"
         android:textSize="18dp" />
 

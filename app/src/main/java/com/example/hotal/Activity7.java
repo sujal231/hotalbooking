@@ -8,22 +8,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Activity9 extends AppCompatActivity {
+public class Activity7 extends AppCompatActivity {
 
-    TextView forgotpassword;
+    TextView txt7;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_9);
+        setContentView(R.layout.activity_7);
 
-        forgotpassword = findViewById(R.id.forgotpassword);
+        txt7 = findViewById(R.id.txt7);
 
-        forgotpassword.setOnClickListener(new View.OnClickListener() {
+        txt7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Activity9.this, Activity8.class);
+                Intent intent = new Intent(Activity7.this, Activity8.class);
                 startActivity(intent);
             }
         });

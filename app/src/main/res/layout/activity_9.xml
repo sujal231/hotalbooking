@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity7"
+    tools:context=".Activity9"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -103,7 +103,7 @@
         android:layout_gravity="bottom">
 
         <TextView
-            android:id="@+id/txtcontinue"
+            android:id="@+id/txt9"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="@dimen/_3sdp"
@@ -120,3 +120,5 @@
 
 
 </FrameLayout>
+
+

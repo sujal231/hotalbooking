@@ -10,18 +10,18 @@ import android.widget.TextView;
 
 public class Activity8 extends AppCompatActivity {
 
-    TextView txtcontinue;
+    TextView txt8;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_8);
-        txtcontinue = findViewById(R.id.txtcontinue);
+        txt8 = findViewById(R.id.txt8);
 
-        txtcontinue.setOnClickListener(new View.OnClickListener() {
+        txt8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Activity8.this, Activity7.class);
+                Intent intent = new Intent(Activity8.this, Activity9.class);
                 startActivity(intent);
             }
         });
