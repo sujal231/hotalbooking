@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">hotal</string>
     <string name="s1">Dont have an account? <b>Sign up</b></string>
+    <string name="s2"><b>4.5</b>(4,981 reviews) </string>
+    <string name="s4"><b>4.7</b>(4,981 reviews) </string>
+    <string name="s5"><b>4.3</b>(4,981 reviews) </string>
+    <string name="s6"><b>4.2</b>(4,981 reviews) </string>
+    <string name="s3"><b>4.5</b></string>
 </resources>
